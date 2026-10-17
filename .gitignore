@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary and local IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Dataset & Model Files (>100MB exceeds standard GitHub limit)
+# If using Git LFS, remove the lines below and run: git lfs track "*.h5" "*.pt" "*.onnx"
+ml/data/proctoring_dataset.h5
+ml/data/raw_videos/*.mp4
+ml/data/raw_videos/*.avi
+ml/models/best_proctor_model.pt
+ml/models/video_proctor_model.onnx
+
+# Allow visual results in repository
+!ml/models/*.png
