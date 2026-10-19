@@ -31,6 +31,10 @@ By fusing **16-frame spatiotemporal webcam face crops ($112 \times 112$)** with 
 
 ## 🏗️ 36-Layer Neural Network Architecture
 
+<p align="center">
+  <img src="ml/models/architecture_diagram.png" width="100%" alt="MultimodalVideoProctorNet Academic Neural Network Architecture Diagram" />
+</p>
+
 ```mermaid
 flowchart TD
     subgraph Inputs
